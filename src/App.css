@@ -1,0 +1,1007 @@
+body{
+    background: #fff3f3;
+}
+/* Slider container */
+.slider {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  
+  }
+  
+  /* Slider background */
+  .slider{
+    background:yellow;
+    position: absolute;
+    top: 1vh;
+    left: 2vw;
+    right: 0;
+    bottom: 0;
+    /* background-color:yellow; */
+    border-radius: 50px;
+    
+  }
+  
+  /* Slider button */
+  .slider-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: red; */
+    /* border-radius: 50%; */
+    transition:0.5s;
+  }
+ /* DropdownMenu.css */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-btn {
+    /* background-color: #f1f1f1; */
+    color: white;
+    border-radius:15px;
+    background: #d1174f;
+    display: block;
+    padding: 10px 15px;
+    width:24vh;
+    border: 1px solid red;
+    position:absolute;
+    left:20vh;
+    top:-2vh;
+    cursor: pointer;
+  }
+  .dropdown-content {
+    display: none;
+    left:16vw;
+    top:5vh;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content div {
+    display: block;
+    padding: 10px 12px;
+    text-decoration: none;
+    color: black;
+  }
+  .dropdown-content div:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+  .dropdown-btn:focus + .dropdown-content {
+    display: block;
+  }
+.calculator{
+    background: #74b0ff;
+    display: block;
+    position: absolute;
+    width:45%;
+    height:80%;
+    left:6%;
+    top:-30%;
+    font-size:3vw;
+    text-align: center;
+    transform: translate(50%,50%);
+    border-radius:4vh;
+    
+}
+.buttons{
+    /* position: relative; */
+    /* top:2vh; */
+    margin-top:2vh;
+    
+}
+.display{
+    display: block;
+    height:10vh;
+    border-radius:2vh;
+    background-color:#729ad6;
+    padding-top:2vh;
+    text-align: right;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    white-space:nowrap;
+    overflow-x: scroll;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.digits{
+    margin-right:1vw;
+    
+}
+.row1,.row2,.row3{
+    display:flex;
+    /* position: absolute; */
+    padding:2vw;
+justify-content: center;
+}
+.aa{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left:2vw;
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+    top:60vh;
+
+}
+.bb{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left:8.2vw;
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+    top:60vh;
+
+}
+.cc{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left:14.4vw;
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+    top:60vh;
+
+}
+.dd{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left:23.8vw;
+    width:3.4vw;
+    height:8vh;
+    border:1px solid white;
+    border-radius:1vw;
+    padding:1vw;
+    padding-top:4vh;
+    top:60vh;
+
+}
+.ee{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left:30.2vw;
+    width:3.5vw;
+    height:8.5vh;
+    border:1px solid white;
+    border-radius:1vw;
+    padding:1vw;
+    padding-top:2vw;
+    top:60vh;
+
+}
+.ff{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left:2vw;
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+    top:40.8vh;
+
+}
+.gg{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left:8.2vw;
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+    top: 40.8vh;
+}
+.hh{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left:14.4vw;
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+    top: 40.8vh;
+
+}
+.ii{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left:23.8vw;
+   width:1.5vw;
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+    top: 40.8vh;
+}
+.jj{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left:30.5vw;
+    width:1.5vw;
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+    top: 40.8vh;
+
+}
+.kk{
+    
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left:2vw;
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+}
+.ll{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left: 8.2vw;
+    /* margin-left:7vw; */
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+}
+
+.mm{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left: 14.5vw;
+    /* margin-left:8vw; */
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+}
+.nn{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    left:55vh;
+    /* margin-left:16vw; */
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+}
+.oo{
+    background-color: #2522f8;
+    color:white;
+    position:absolute;
+    left:71vh;
+    height:6vh;
+    /* margin-left:24vw; */
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+    padding-top:6vh;
+} 
+.poww{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    width:3vh;
+    height:6vh;
+    left:37vw;
+    /* margin-left:7vw; */
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+    padding-top:6vh;
+} 
+.qrt{
+    background-color: #2522f8;
+    color:white;
+    position: absolute;
+    top:40.8vh;
+    height:8vh;
+    left:37vw;
+    /* margin-left:7vw; */
+    border:1px solid white;
+    border-radius:1vw;
+    padding:2vw;
+} 
+.dell{
+    background-color: #2522f8;
+    color:white;
+    position:absolute;
+    width:4vw;
+    height: 10vh;
+    left:37vw;
+    /* margin-left:24vw; */
+    border:1px solid white;
+    border-radius:1vw;
+    top:60vh;
+    padding:1vw;
+    padding-top:4vh;
+    padding-left:0.8vw;
+}
+.aa:active,.bb:active,.cc:active,.dd:active,.ee:active,.ff:active,.gg:active,.hh:active,.ii:active,.jj:active,.kk:active,.ll:active,.mm:active,.nn:active,.oo:active,.dell:active{
+transform:scale(0.95);
+}
+.aa:hover,.bb:hover,.cc:hover,.dd:hover,.ee:hover,.ff:hover,.gg:hover,.hh:hover,.ii:hover,.jj:hover,.kk:hover,.ll:hover,.mm:hover,.nn:hover,.oo:hover,.dell:hover{
+    opacity: 0.6;
+}
+@media(max-width:700px)
+{
+    .slider {
+        position: relative;
+        display: inline-block;
+        width: 75px;
+        height: 34px;
+      
+      }
+      
+      /* Slider background */
+      .slider{
+        background:yellow;
+        position: absolute;
+        top: 2vh;
+        left: 2vw;
+        right: 0;
+        bottom: 0;
+        /* background-color:yellow; */
+        border-radius: 50px;
+        
+      }
+      
+      /* Slider button */
+      .slider-btn {
+        position: absolute;
+        cursor: pointer;
+        top: -0.6vh;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: red; */
+        /* border-radius: 50%; */
+        transition:0.5s;
+      }
+     /* DropdownMenu.css */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-btn {
+        /* background-color: #f1f1f1; */
+        color: white;
+        border-radius:15px;
+        background: #d1174f;
+        display: block;
+        padding: 10px 15px;
+        width:24vh;
+        border: 1px solid red;
+        position:absolute;
+        left:20vh;
+        top:-1vh;
+        cursor: pointer;
+      }
+      .dropdown-content {
+        display: none;
+        left:16vw;
+        top:5vh;
+        position: absolute;
+        background-color: #fff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .dropdown-content div {
+        display: block;
+        padding: 10px 12px;
+        text-decoration: none;
+        color: black;
+      }
+      .dropdown-content div:hover {
+        background-color: #f1f1f1;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      } 
+      .dropdown-btn:focus + .dropdown-content {
+        display: block;
+      }
+    .calculator{
+        background: #74b0ff;
+        display: block;
+        position: relative;
+        width:100vw;
+        height:80vh;
+        bottom:52vh;
+        top:-35vh;
+        /* text-align: center; */
+        /* transform: translate(50%,50%); */
+        border-radius:4vh;
+        left:-52vw;
+        font-size:6vh;
+    }
+    .display{
+        display: block;
+        height:10vh;
+        position:relative;
+        top:3vh;
+        border-radius:2vh;
+        background-color:#729ad6;
+        /* color:white; */
+        padding-top:1vh;
+        text-align: right;
+        margin-right: 2vw;
+        margin-left: 2vw;
+        margin-top: 3vh;
+        white-space:nowrap;
+        overflow-x: scroll;
+        font-size:8vh;
+    }
+    .aa{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+       
+        left:4vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top:57vh;
+
+    }
+    .bb{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:18vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top:57vh;
+
+    }
+    .cc{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:32vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top:57vh;
+
+    }
+    .dd{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:54.5vw;
+        height:7vh;
+        border:1px solid white;
+        border-radius:1vw;
+        /* padding:3vw; */
+        padding-right:3vh;
+        padding-left:3vh;
+        padding-top:2vh;
+        padding-bottom:3vh;
+        top:57vh;
+    }
+    .ee{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:71vw;
+        height:7vw;
+        border:1px solid white;
+        border-radius:1vw;
+        /* padding:3vw; */
+        padding-right:3vh;
+        padding-left:3vh;
+        padding-top:4vw;
+        padding-bottom:3vh;
+        top:57vh;
+    }
+    .dell{
+        background-color: #2522f8;
+        color:white;
+        
+        position:absolute;
+        left:86vw;
+        width:5vw;
+        padding-top:4.2vh;
+        padding-right: 3vh;
+        padding-left:1.5vh;
+        height:7vh;
+    text-align: center;
+        top:57vh;
+        /* margin-left:24vw; */
+        border:1px solid white;
+        border-radius:1vw;
+         font-size: 5vw;
+    }
+    .ff{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:4vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top:38.5vh;
+
+    }
+    .gg{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:18vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top: 38.5vh;
+    }
+    .hh{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:32vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top: 38.5vh;
+
+    }
+    .ii{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:54vw;
+       width:4vh;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top: 38.5vh;
+    }
+    .jj{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:70vw;
+        width:7vw;
+        
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top: 38.5vh;
+
+    }
+    .kk{
+        
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:4vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top:20vh;
+    }
+    .ll{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left: 11vw;
+        margin-left:7vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top:20vh;
+    }
+    
+    .mm{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left: 24vw;
+        margin-left:8vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top:20vh;
+    }
+    .nn{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:38vw;
+        height:7vh;
+        margin-left:16vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top:20vh;
+    }
+    .oo{
+        background-color: #2522f8;
+        color:white;
+        position:absolute;
+        left:46vw;
+        height:6vh;
+        margin-left:24vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        padding-top:5vw;
+        top:20vh;
+    } 
+    .powww{
+        background-color: #2522f8;
+        color:white;
+        position:absolute;
+        left:62vw;
+        width:6vw;
+        height:6vh;
+        margin-left:24vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        padding-top:5vw;
+        top:20vh;
+    } 
+    .qrt{
+        background-color: #2522f8;
+        color:white;
+        position:absolute;
+        left:62vw;
+        height:5.6vh;
+        margin-left:24vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        padding-bottom:5vw;
+        padding-top:4vw;
+        top:38.6vh;
+    } 
+
+}
+@media(min-width:700px) and (max-width:1000px)
+{
+    .slider {
+        position: relative;
+        display: inline-block;
+        width: 75px;
+        height: 34px;
+      
+      }
+      
+      /* Slider background */
+      .slider{
+        background:yellow;
+        position: absolute;
+        top: 2vh;
+        left: 2vw;
+        right: 0;
+        bottom: 0;
+        /* background-color:yellow; */
+        border-radius: 50px;
+        
+      }
+      
+      /* Slider button */
+      .slider-btn {
+        position: absolute;
+        cursor: pointer;
+        top: -0.6vh;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: red; */
+        /* border-radius: 50%; */
+        transition:0.5s;
+      }
+     /* DropdownMenu.css */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-btn {
+        /* background-color: #f1f1f1; */
+        color: white;
+        border-radius:15px;
+        background: #d1174f;
+        display: block;
+        padding: 10px 15px;
+        width:24vh;
+        border: 1px solid red;
+        position:absolute;
+        left:20vh;
+        top:-1vh;
+        cursor: pointer;
+      }
+      .dropdown-content {
+        display: none;
+        left:16vw;
+        top:5vh;
+        position: absolute;
+        background-color: #fff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .dropdown-content div {
+        display: block;
+        padding: 10px 12px;
+        text-decoration: none;
+        color: black;
+      }
+      .dropdown-content div:hover {
+        background-color: #f1f1f1;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      } 
+      .dropdown-btn:focus + .dropdown-content {
+        display: block;
+      }
+      .display{
+        display: block;
+        height:10vh;
+        font-size:7vh;
+        border-radius:2vh;
+        background-color:#729ad6;
+        padding-top:2vh;
+        text-align: right;
+        margin-right: 2vw;
+        margin-left: 2vw;
+        margin-top: 3vh;
+        white-space:nowrap;
+        overflow-x: scroll;
+        
+    }
+    .calculator{
+        background: #74b0ff;
+        display: block;
+        position: absolute;
+        width:80%;
+        height:70%;
+        top:-20vh;
+        bottom:50vh;
+        text-align: center;
+        transform: translate(50%,50%);
+        border-radius:4vh;
+        left:-30vw;
+        font-size:5vh;
+    }
+    .aa{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:4vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top:51vh;
+
+    }
+    .bb{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:17vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top:51vh;
+
+    }
+    .cc{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:30vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top:51vh;
+
+    }
+    .dd{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:45.5vw;
+        height:5.5vh;
+        width:2vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top:51vh;
+    }
+    .ee{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:57vw;
+        width:1vw;
+        height:6.5vh;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:2vw;
+        padding-top:3vw;
+        padding-right:4vw;
+        padding-left:3vw;
+        top:51vh;
+
+    }
+    .dell{
+        background-color: #2522f8;
+        color:white;
+        
+        position:absolute;
+        left:68vw;
+        width:4vw;
+        padding-top:3vw;
+        padding-right:2vw;
+        padding-left:2vw;
+        height:8vh;
+    text-align: center;
+        top:51vh;
+        /* margin-left:24vw; */
+        border:1px solid white;
+        border-radius:1vw;
+         font-size: 4vw;
+    }
+    .ff{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:4vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top:35.8vh;
+
+    }
+    .gg{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:17vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top: 35.8vh;
+    }
+    .hh{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:30vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top: 35.8vh;
+
+    }
+    .ii{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:46vw;
+       width:2vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top: 35.8vh;
+    }
+    .jj{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:57vw;
+        width:2vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        top: 35.8vh;
+
+    }
+    .kk{
+        
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:4vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+    }
+    .ll{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left: 10vw;
+        margin-left:7vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+    }
+    
+    .mm{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left: 22vw;
+        margin-left:8vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+    }
+    .nn{
+        background-color: #2522f8;
+        color:white;
+        position: absolute;
+        left:30vw;
+        margin-left:16vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+    }
+    .oo{
+        background-color: #2522f8;
+        color:white;
+        position:absolute;
+        left:33vw;
+        height:4.5vh;
+        margin-left:24vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        padding-top:4vh;
+    } 
+    .poww{
+        background-color: #2522f8;
+        color:white;
+        position:absolute;
+        left:44vw;
+        height:5.5vh;
+        margin-left:24vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:3vw;
+        padding-top:3vw;
+        top:19vh;
+    } 
+    .qrt{
+        background-color: #2522f8;
+        color:white;
+        position:absolute;
+        left:44vw;
+        height:7vh;
+        margin-left:24vw;
+        border:1px solid white;
+        border-radius:1vw;
+        padding:2.5vw;
+        padding-bottom:2vw;
+        padding-top:3vw;
+        top:35.5vh;
+    }
+
+}
